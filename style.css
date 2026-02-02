@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=DynaPuff:wght@400..700&family=Oi&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=DynaPuff:wght@400..700&family=Honk:MORF@15&family=Nabla&family=Oi&display=swap');
+
+:root{
+    --font: "DynaPuff", system-ui;
+    --font1: "Honk", system-ui;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-image: url(img/hamburguer.avif);
+    width: 99%;
+    height: 220px;
+    font-family: var(--font);
+    border: 3px solid #f6691d;
+}
+#fixo{
+    position: fixed;
+    width: 100%;
+}
+.pula{
+    margin-top: 100px;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hamburguer{
+    width: 100%;
+}
+#card{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5%;
+}
+.card1{
+    flex: 5%;
+    padding: 10px 0;
+
+}
+.card2{
+    flex: 20%;
+    padding: 10px 0;
+}
+.card3{
+    flex: 40%;
+}
+.entra{
+    width: 70%;
+    height: 100%;
+    background-color: rgb(214, 231, 64);
+    border: 1px solid rgb(214, 231, 64);
+    cursor: pointer;
+    margin-left: 25%;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+.entra:hover{
+    background-color: rgb(103, 126, 60);
+}
+.h2{
+    font-family: var(--font);
+}
+.espaco{
+    margin: 5%;
+    color: #fff;
+}
+h1{
+    font-size: 22px;
+    margin: 5%;
+}
+.peca{
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.peca1{
+    flex: 20%;
+}
+.bu1{
+    padding: 13px 20px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
+.bu{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
+.buton{
+    cursor: pointer;
+}
+span{
+    color: #000;
+}
+#se{
+   padding-top: 10px;
+}
+.cima{
+    margin: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.test{
+    flex: 10%;
+    margin-left: 10px;
+    color: #242121;
+    font-size: 12px;
+}
+.te{
+    width: 100%;
+}
+h2{
+    font-size: 30px;
+    margin-left: 10%;
+}
+#separa{
+    margin: 30px 15%;
+}
+.ma{
+    margin-left: 50px;
+}
+.separar{
+    display: flex;
+    margin: 10px 10%;
+    flex-wrap: wrap;
+}
+.separar1{
+   margin-top: 150px; 
+}
+.tamanho{
+    font-size: 22px;
+    margin: 10px 0;
+    font-family: var(--font);
+}
+.final{
+    background-color: #b6df1f;
+    padding: 10px 0;
+    color: #fff;
+}
+.card001{
+    display: flex;
+    margin: 5px 5%;
+    flex-wrap: wrap;
+}
+#card002{
+    flex: 91%;
+    font-size: 13px;
+    font-family: var(--font);
+    /*border: 1px solid #000;*/
+}
+#card003{
+    flex: 1%;
+    /*border: 1px solid #000;*/
+}
+@media (min-width: 601px) and (max-width: 1024px) {
+   .separar1{
+        flex: 40%;
+    }
+}
+@media (min-width: 1201px) { 
+    nav{
+        height: 300px;
+        position: relative;
+        margin: 0;
+        width: 100%;
+        background-color: #6fad0b;
+        border: 1px solid #000;
+        background-position: center;
+    }
+    #se{
+        padding-top: 3px;
+    }
+    .separar1{
+        flex: 20%;
+    }
+    .cartao{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .separa{
+        flex: 33%;
+    }
+    .te1{
+        width: 78%;
+        margin-left: 330px;
+    }
+    .espaco{
+        margin: 1%;
+        text-align: center;
+    }
+    .h1{
+        font-size: 30px;
+    }
+    #card{
+        margin: 1%;
+    }
+    .peca1{
+        padding-left: 150px;
+    }
+    .entra{
+        width: 30%;
+        margin-left: 450px;
+    }
+    #card002{
+        font-size: 30px;
+    }
+}
